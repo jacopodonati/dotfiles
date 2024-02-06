@@ -1,0 +1,10 @@
+#--cookies-from-browser safari
+
+--format "bestvideo[ext=mp4][vcodec~='^((he|a)vc|h26[45])']+bestaudio[ext=m4a]/best[ext=mp4]/best"
+--merge-output-format mp4
+
+--sub-langs ".*orig,it,en.*,pt"
+--write-auto-subs
+--embed-subs
+
+--ffmpeg-location "/opt/homebrew/bin/ffmpeg"
