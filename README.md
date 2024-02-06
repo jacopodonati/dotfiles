@@ -1,2 +1,3 @@
 # dotfiles
-A backup of my dotfiles
+
+A backup of my dotfiles.
