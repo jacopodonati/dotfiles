@@ -19,8 +19,13 @@
 
 #!/bin/zsh
 
+echo "Backing up emacs..."
 rsync -aE --delete --exclude="*~" ~/.emacs.d ./
+echo "Backing up lynx..."
 rsync -aE --delete ~/.lynxrc ./
+echo "Backing up vim..."
 rsync -aE --delete ~/.vim ./
+echo "Backing up spotdl..."
 rsync -aE --delete ~/.spotdl ./
+echo "Backing up yt-dlp..."
 rsync -aE --delete ~/.yt-dlp ./
