@@ -21,4 +21,5 @@
 
 rsync -aE --delete --exclude="*~" ~/.emacs.d ./
 rsync -aE --delete ~/.vim ./
+rsync -aE --delete ~/.spotdl ./
 rsync -aE --delete ~/.yt-dlp ./
