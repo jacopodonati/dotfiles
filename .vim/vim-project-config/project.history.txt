@@ -1,2 +1,5 @@
-/Users/jacopo/Developer/comic_hoarder
+/Users/jacopo/Developer/dotfiles
+/Users/jacopo/Developer/sito
 /Users/jacopo/Developer/jacopodonati.it
+/Users/jacopo/Developer/da1me.github.io
+/Users/jacopo/Developer/comic_hoarder

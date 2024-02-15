@@ -1,4 +1,4 @@
-set guifont=SF_Mono
+set guifont=Jetbrains_Mono:h13
 set autoindent
 set expandtab
 set shiftround
@@ -20,7 +20,7 @@ set scrolloff=1
 set sidescrolloff=5
 syntax enable
 set wrap
-set textwidth=60
+set textwidth=72
 
 set laststatus=2
 set ruler
