@@ -15,12 +15,16 @@
 (setq org-agenda-todo-ignore-scheduled "all")
 (setq org-stuck-projects (quote ("+LEVEL=2/-DONE" ("NEXT") nil "")))
 
+(setq inhibit-splash-screen t)
+(org-agenda-list)
+(delete-other-windows)
+
 ;; file agenda
 (setq org-agenda-files (list "~/Documents/Organizzazione/"))
 ;; 
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
-(setq org-default-notes-file "~/OneDrive/Documenti/Organizzazione/inbox.org")
+(setq org-default-notes-file "~/Documents/Organizzazione/inbox.org")
 ; Targets include this file and any file contributing to the agenda - up to 9 levels deep
 (setq org-refile-targets (quote ((nil :maxlevel . 9)
                                  (org-agenda-files :maxlevel . 9))))
@@ -76,20 +80,8 @@
 
 (add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
 
-;; (use-package org-mind-map
-;;   :init
-;;   (require 'ox-org)
-;;   :ensure t
-;;   ;; Uncomment the below if 'ensure-system-packages` is installed
-;;   ;;:ensure-system-package (gvgen . graphviz)
-;;   :config
-;;   (setq org-mind-map-engine "dot")       ; Default. Directed Graph
-;;   ;; (setq org-mind-map-engine "neato")  ; Undirected Spring Graph
-;;   ;; (setq org-mind-map-engine "twopi")  ; Radial Layout
-;;   ;; (setq org-mind-map-engine "fdp")    ; Undirected Spring Force-Directed
-;;   ;; (setq org-mind-map-engine "sfdp")   ; Multiscale version of fdp for the layout of large graphs
-;;   ;; (setq org-mind-map-engine "twopi")  ; Radial layouts
-;;   ;; (setq org-mind-map-engine "circo")  ; Circular Layout
-;;   )
+(setq org-capture-templates
+      '(("b" "Book" entry (file "books.org")
+         "* %^{TITLE}\n:PROPERTIES:\n:ADDED: %<[%Y-%02m-%02d]>\n:END:%^{AUTHOR}p\n%?" :empty-lines 1)))
 
 ;;(setq org-startup-folded "children")
