@@ -19,6 +19,6 @@
 
 #!/bin/zsh
 
-rsync -aE --delete ~/.emacs.d ./
+rsync -aE --delete --exclude="*~" ~/.emacs.d ./
 rsync -aE --delete ~/.vim ./
 rsync -aE --delete ~/.yt-dlp ./
