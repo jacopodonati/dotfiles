@@ -26,6 +26,6 @@ rsync -aE --delete ~/.lynxrc ./
 echo "Backing up vim..."
 rsync -aE --delete ~/.vim ./
 echo "Backing up spotdl..."
-rsync -aE --delete ~/.spotdl ./
+rsync -aE --delete ~/.spotdl/config.json ./.spotdl/
 echo "Backing up yt-dlp..."
 rsync -aE --delete ~/.yt-dlp ./
