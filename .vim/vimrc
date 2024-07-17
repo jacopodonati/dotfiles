@@ -5,6 +5,7 @@ set shiftround
 set shiftwidth=4
 set smarttab
 set tabstop=4
+set lcs+=space:·
 
 set hlsearch
 set ignorecase
@@ -21,7 +22,7 @@ set sidescrolloff=5
 syntax enable
 set wrap
 set textwidth=72
-
+set colorcolumn=72
 set laststatus=2
 set ruler
 set wildmenu
@@ -32,3 +33,5 @@ set visualbell
 set title
 
 filetype plugin on
+
+packloadall

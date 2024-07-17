@@ -1,0 +1,67 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/partials/" . "home/")
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/" . "partials/")
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/" . "layouts/")
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/" . "chimero/")
+ ("/Users/jacopo/Developer/jacopodonati.it/" . "content/")
+ ("/Users/jacopo/Developer/" . "jacopodonati.it/")
+ ("/Users/jacopo/" . ".emacs.d/")
+ ("/Users/jacopo/Documents/" . "Organizzazione/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jacopo/.emacs.d/"
+ "/Users/jacopo/Developer/jacopodonati.it/content/"
+ "/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/partials/home/"
+ "/Users/jacopo/Documents/Organizzazione/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "org.el"
+ "_index.md"
+ "info.html"
+ "mac.el"
+ "init.el"
+ "base.el"
+ "astronomia.org"
+ "famiglia.org"
+ "early-init.el"
+ "shortcuts.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jacopo/.emacs.d/" (26229 44448 693695 427000) "writing.el~" "early-init.el~" "calendar.el" "bookmarks~" "elpa/" "early-init.el" "base.el" "mac.el" "base.el~" "bookmarks" "init.el" "auto-save-list/" "mac.el~" "SessionDesktop.el" "shortcuts.el" "writing.el" "functions.el" "transient/" "projects" "org.el" "ido.last~" "init.el~" "ido.last" "org.el~" "../" "./")
+
+ ("/Users/jacopo/" (26229 44188 325040 156000) ".lynxrc" ".zsh_sessions/" ".viminfo" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".PrefsFileBackup" ".glaze/" ".swiftpm/" ".vscode/" ".zcompcache/" "Documents/" ".npm/" ".vscode-insiders/" ".zcompdump" ".Trash/" "Applications/" "Movies/" ".venv/" "package.json" "package-lock.json" ".vscode-oss/" "Public/" ".joe_state" ".cups/" ".gitignore_global" ".node_repl_history" ".emacs.d/" ".spotdl/" ".oracle_jre_usage/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".cpan/" ".rnd" "node_modules/" ".zprofile" ".links/" "Pictures/" ".mongodb/" ".local/" "OneDrive/" ".zshrc" ".hcwd" ".wget-hsts" ".kindle/" ".angular-config.json" ".wordgrinder/" ".yarnrc" ".vscode-exploration/" ".DS_Store" ".vim/" ".openshot_qt/" "Developer/" ".rest-client/" ".yt-dlp/" "Music/" ".config/" ".zshr" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/content/" (26062 28563 154336 117000) "_index.md" "pubblicazioni/" "bio/" "saggi/" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/partials/home/" (26062 28520 333684 234000) "altro.html" "cv.html" ".#info.html" "pubblicazioni.html" "saggi.html" "contatti.html" "info.html" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/partials/" (25931 16474 884254 932000) "header.html" "footer.html" "head.html" "scontrino.html" "head/" "home/" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/" (26056 30834 181382 353000) "partials/" "_default/" "404.html" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/" (26040 47240 646565 595000) "assets/" ".git" "static/" "theme.yml" "layouts/" ".gitignore" "LICENSE" ".DS_Store" "go.mod" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/themes/" (26039 45246 354286 987000) "chimero/" ".DS_Store" "../" "./")
+
+ ("/Users/jacopo/Documents/" (26062 26426 0 0) "Spese e entrate.numbers" "Libro mastro generale--27.12.2023.pdf" "Viaggi/" "Card Cultura.pdf" "Racconti in lavorazione/" "Organizzazione/" "Finanze condominio/" "Libro mastro generale--28.12.2023.pdf" "Finanze.cashdb/" "Finanze personali/" "Digital Editions/" "Progetti/" ".localized" "Catalogo morboso di morti celebri.numbers" ".DS_Store" "../" "./")
+
+ ("/Users/jacopo/Documents/Organizzazione/" (26062 26426 0 0) "condominio.org~" "scrittura.org" "personale.org" "casa.org~" "musica.org~" "feste.org" "famiglia.org" "futuro.org" "inbox.org~" "personale.org~" "bucket_list.org" "famiglia.org~" "scrittura.org_archive" "music.org~" "#.emacs#" "compleanni.org~" "astronomia.org~" "personale.org_archive" "inbox.org" "personale.org_archive~" "lezioni.org~" "astronomia.org" "music.org" "bucket_list.org~" "casa.org" "futuro.org~" ".DS_Store" "tickler.org~" "compleanni.org" "lezioni.org" "musica.org" "condominio.org" "scrittura.org~" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/" (26051 62772 368968 98000) "themes/" "assets/" "data/" "i18n/" ".vscode/" ".git/" ".github/" "static/" "layouts/" ".gitignore" "public/" ".gitmodules" "go.sum" ".hugo_build.lock" "content/" "resources/" "archetypes/" "CNAME" "config/" ".DS_Store" "go.mod" "../" "./")
+
+ ("/Users/jacopo/Developer/" (26060 24095 639853 804000) "da1me.github.io/" "bradipo/" "cacert.pem" "toanhow/" "jacopodonati.it.zip" "iA-Writer-ShortStory/" "iA-Writer-Templates/" "pickwick/" "dotfiles/" ".DS_Store" "comic_hoarder/" "jacopodonati.it/" "../" "./")
+
+ ("/Users/" (25988 17237 796672 865000) "Guest/" "Shared/" "jacopo/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

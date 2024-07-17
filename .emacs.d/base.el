@@ -2,16 +2,30 @@
 (package-initialize)
 
 ;;;; Impostazioni varie
-(setq current-language-environment "UTF-8")                   ; UTF-8
-(setq visible-bell 1)                                         ; Niente campana
-(display-time-mode 1)				  ; Mostra l'orologio
-(setq display-time-mode t)                        ; Orologio a 24 ore
-(setq display-time-24hr-format t)                 ;      |
-(setq set-language-environment "UTF-8")           ; Codifica in UTF-8
-(setq global-display-line-numbers-mode 1)	  ; Mostra i numeri di linea
-(tool-bar-mode -1)
 
-;(add-to-list 'default-frame-alist '(font . "IosevkaTermCurly-14" ))
+;; Vai a tutto schermo
+(toggle-frame-fullscreen)
+
+;; UTF-8
+(setq set-language-environment "Italian")
+
+;; Niente campana, ma flash visivo
+(setq visible-bell 1)
+
+;; Mostra l'orologio...
+(display-time-mode 1)
+;; ... di 24 ore
+(setq display-time-mode t)
+(setq display-time-24hr-format t)
+
+;; Nascondi i numeri di linea...
+(setq global-display-line-numbers-mode 0)
+(setq line-number-mode 0)
+;; ... ma mostrali in modalità programmazione
+(add-hook 'prog-mode-hook #'display-line-numbers-mode)
+
+;; Nascondi la barra degli strumenti
+(tool-bar-mode -1)
 
 ;; Inizializzazione MELPA
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))

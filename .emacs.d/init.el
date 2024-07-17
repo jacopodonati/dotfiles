@@ -32,13 +32,8 @@
    ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
  '(company-quickhelp-color-background "#4F4F4F")
  '(company-quickhelp-color-foreground "#DCDCCC")
- '(current-language-environment "Italian")
- '(custom-enabled-themes '(modus-operandi))
- '(custom-safe-themes
-   '("69f7e8101867cfac410e88140f8c51b4433b93680901bb0b52014144366a08c8" "21e3d55141186651571241c2ba3c665979d1e886f53b2e52411e9e96659132d4" "76c5b2592c62f6b48923c00f97f74bcb7ddb741618283bdb2be35f3c0e1030e3" default))
  '(display-time-mode t)
  '(fci-rule-color "#383838")
- '(global-display-line-numbers-mode t)
  '(nrepl-message-colors
    '("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3"))
  '(package-archives
@@ -49,7 +44,6 @@
    '(modus-themes org-movies org-books olivetti lorem-ipsum sudoku auto-complete-auctex auctex-lua chess org-pomodoro org-edna org-bullets emojify muse markdown-mode pandoc-mode magit csv-mode auctex))
  '(pdf-view-midnight-colors '("#DCDCCC" . "#383838"))
  '(preview-auto-reveal t)
- '(tool-bar-mode nil)
  '(vc-annotate-background "#2B2B2B")
  '(vc-annotate-color-map
    '((20 . "#BC8383")

@@ -15,6 +15,10 @@
 (setq org-agenda-todo-ignore-scheduled "all")
 (setq org-stuck-projects (quote ("+LEVEL=2/-DONE" ("NEXT") nil "")))
 
+;; Imposta le coordinate
+(setq calendar-latitude 44.5)
+(setq calendar-longitude 11.3)
+
 (setq inhibit-splash-screen t)
 (org-agenda-list)
 (delete-other-windows)
@@ -80,8 +84,21 @@
 
 (add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
 
+
 (setq org-capture-templates
-      '(("b" "Book" entry (file "books.org")
-         "* %^{TITLE}\n:PROPERTIES:\n:ADDED: %<[%Y-%02m-%02d]>\n:END:%^{AUTHOR}p\n%?" :empty-lines 1)))
+      '(("l" "Libri" entry (file "~/Documents/Organizzazione/libri.org")
+         "* %^{TITLE}\n:PROPERTIES:\n:ADDED: %<[%Y-%02m-%02d]>\n:END:%^{AUTHOR}p\n%?" :empty-lines 1)
+      ("m" "Musica" entry (file "~/Documents/Organizzazione/musica.org")
+         "* %^{TITLE}\n:PROPERTIES:\n:ADDED: %<[%Y-%02m-%02d]>\n:END:%^{ARTIST}p\n%^{YEAR}p\n%?" :empty-lines 1)
+      ("f" "Film" entry (file "~/Documents/Organizzazione/film.org")
+         "* %^{TITLE}\n:PROPERTIES:\n:ADDED: %<[%Y-%02m-%02d]>\n:END:%^{YEAR}p\n%^{DIRECTOR}p\n%?" :empty-lines 1)
+      ))
 
 ;;(setq org-startup-folded "children")
+(dolist (face '(window-divider
+                window-divider-first-pixel
+                window-divider-last-pixel))
+  (face-spec-reset-face face)
+  (set-face-foreground face (face-attribute 'default :background)))
+(set-face-background 'fringe (face-attribute 'default :background))
+(global-org-modern-mode)
