@@ -19,13 +19,13 @@
 
 #!/bin/zsh
 
-echo "Backing up emacs..."
+echo "Backup di emacs..."
 rsync -aE --delete --exclude="*~" ~/.emacs.d ./
-echo "Backing up lynx..."
+echo "Backup di lynx..."
 rsync -aE --delete ~/.lynxrc ./
-echo "Backing up vim..."
-rsync -aE --delete ~/.vim ./
-echo "Backing up spotdl..."
+echo "Backup di spotdl..."
 rsync -aE --delete ~/.spotdl/config.json ./.spotdl/
-echo "Backing up yt-dlp..."
+echo "Backup di vim..."
+rsync -aE --delete ~/.vim ./
+echo "Backup di yt-dlp..."
 rsync -aE --delete ~/.yt-dlp ./
