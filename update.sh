@@ -1,21 +1,21 @@
 # Copyright (C) 2024 Jacopo Donati
-# 
-# This file is part of dotfiles.
-# 
-# dotfiles is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-# 
-# dotfiles is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-# 
-# You should have received a copy of the GNU General Public License
-# along with dotfiles.  If not, see <http://www.gnu.org/licenses/>.
-
-# This is a simple script that copies my dotfiles from $HOME to the repo
+#
+# Questo file fa parte di dotfiles.
+#
+# dotfiles è software libero: puoi redistribuirlo e/o modificarlo
+# secondo i termini della GNU General Public License pubblicata dalla
+# Free Software Foundation, sia la versione 3 della Licenza, sia
+# (a tua scelta) una versione successiva.
+#
+# dotfiles è distribuito nella speranza che sia utile,
+# ma SENZA ALCUNA GARANZIA; senza neppure la garanzia implicita di
+# COMMERCIABILITÀ o IDONEITÀ PER UN PARTICOLARE SCOPO.  Vedi la
+# GNU General Public License per maggiori dettagli.
+#
+# Dovresti aver ricevuto una copia della GNU General Public License
+# insieme a dotfiles.  In caso contrario, vedi <http://www.gnu.org/licenses/>.
+#
+# Questo è un semplice script che copia i miei dotfiles da $HOME al repository
 
 #!/bin/zsh
 
