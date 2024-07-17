@@ -29,3 +29,5 @@ echo "Backup di vim..."
 rsync -aE --delete ~/.vim ./
 echo "Backup di yt-dlp..."
 rsync -aE --delete ~/.yt-dlp ./
+echo "Backup di zed..."
+rsync -aE --delete --include="*/" --include="*.json" --exclude="*" ~/.config/zed ./config
