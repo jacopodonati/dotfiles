@@ -4,7 +4,7 @@
 ;;;; Impostazioni varie
 
 ;; Vai a tutto schermo
-(toggle-frame-fullscreen)
+;; (toggle-frame-fullscreen)
 
 ;; UTF-8
 (setq set-language-environment "Italian")
@@ -26,6 +26,9 @@
 
 ;; Nascondi la barra degli strumenti
 (tool-bar-mode -1)
+
+;; Fai un soft wrap
+(setq visual-line-mode t)
 
 ;; Inizializzazione MELPA
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))

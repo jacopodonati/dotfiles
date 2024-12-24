@@ -10,6 +10,7 @@
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
+
 (setq org-log-done t)
 (setq org-agenda-dim-blocked-tasks t)
 (setq org-agenda-todo-ignore-scheduled "all")
@@ -26,8 +27,8 @@
 ;; file agenda
 (setq org-agenda-files (list "~/Documents/Organizzazione/"))
 ;; 
-(require 'org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;; (require 'org-bullets)
+;; (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (setq org-default-notes-file "~/Documents/Organizzazione/inbox.org")
 ; Targets include this file and any file contributing to the agenda - up to 9 levels deep
 (setq org-refile-targets (quote ((nil :maxlevel . 9)

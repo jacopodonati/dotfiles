@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jacopo/.emacs.d/" . "c.el/")
+ ("/Users/jacopo/Developer/advent_of_code/" . "2024/")
  ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/partials/" . "home/")
  ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/" . "partials/")
  ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/" . "layouts/")
@@ -15,6 +17,12 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/jacopo/.emacs.d/"
+ "/Users/jacopo/Developer/advent_of_code/2024/"
+ "/Users/jacopo/Developer/advent_of_code/2024/inputs/"
+ "/Users/jacopo/Developer/advent_of_code/2023/"
+ "/Users/jacopo/Developer/avm-c/"
+ "/Users/jacopo/Developer/test/"
+ "/Users/jacopo/Developer/test/templates/"
  "/Users/jacopo/Developer/jacopodonati.it/content/"
  "/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/partials/home/"
  "/Users/jacopo/Documents/Organizzazione/"
@@ -22,25 +30,43 @@
 
 ;; ----- ido-work-file-list -----
 (
- "org.el"
- "_index.md"
- "info.html"
  "mac.el"
  "init.el"
+ "day_4.c"
+ "day_4.txt"
+ "day_2.c"
  "base.el"
- "astronomia.org"
- "famiglia.org"
- "early-init.el"
- "shortcuts.el"
+ "Makefile"
+ "main.c"
+ "org.el"
+ "metadata.yaml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jacopo/.emacs.d/" (26229 44448 693695 427000) "writing.el~" "early-init.el~" "calendar.el" "bookmarks~" "elpa/" "early-init.el" "base.el" "mac.el" "base.el~" "bookmarks" "init.el" "auto-save-list/" "mac.el~" "SessionDesktop.el" "shortcuts.el" "writing.el" "functions.el" "transient/" "projects" "org.el" "ido.last~" "init.el~" "ido.last" "org.el~" "../" "./")
+ ("/Users/jacopo/.emacs.d/" (26448 8737 68583 268000) "calendar.el" "bookmarks~" "elpa/" "base.el" "mac.el" "base.el~" ".#init.el" "bookmarks" "init.el" "url/" "auto-save-list/" "mac.el~" "shortcuts.el" "functions.el" "transient/" "projectile-bookmarks.eld" "projects" "org.el" "ido.last~" "eshell/" "init.el~" "ido.last" "org.el~" "../" "./")
 
- ("/Users/jacopo/" (26229 44188 325040 156000) ".lynxrc" ".zsh_sessions/" ".viminfo" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".PrefsFileBackup" ".glaze/" ".swiftpm/" ".vscode/" ".zcompcache/" "Documents/" ".npm/" ".vscode-insiders/" ".zcompdump" ".Trash/" "Applications/" "Movies/" ".venv/" "package.json" "package-lock.json" ".vscode-oss/" "Public/" ".joe_state" ".cups/" ".gitignore_global" ".node_repl_history" ".emacs.d/" ".spotdl/" ".oracle_jre_usage/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".cpan/" ".rnd" "node_modules/" ".zprofile" ".links/" "Pictures/" ".mongodb/" ".local/" "OneDrive/" ".zshrc" ".hcwd" ".wget-hsts" ".kindle/" ".angular-config.json" ".wordgrinder/" ".yarnrc" ".vscode-exploration/" ".DS_Store" ".vim/" ".openshot_qt/" "Developer/" ".rest-client/" ".yt-dlp/" "Music/" ".config/" ".zshr" "../" "./")
+ ("/Users/jacopo/" (26448 8557 204425 471000) ".lynxrc" ".gtk-bookmarks" ".zsh_sessions/" ".viminfo" ".ollama/" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".PrefsFileBackup" ".swiftpm/" ".vscode/" ".newsrc-dribble" ".zcompcache/" "Documents/" ".npm/" ".vscode-insiders/" ".zcompdump" ".Trash/" ".freeciv/" "Applications/" "Movies/" ".ssh/" ".rustup/" ".venv/" ".vscode-oss/" "Public/" ".joe_state" ".cups/" ".gitignore_global" ".cargo/" ".node_repl_history" ".emacs.d/" ".spotdl/" ".oracle_jre_usage/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".cpan/" ".rnd" ".zprofile" ".links/" "Pictures/" ".mongodb/" ".local/" "OneDrive/" "brain_tickler" ".zshrc" ".hcwd" ".wget-hsts" ".kindle/" ".angular-config.json" ".w3m/" ".wordgrinder/" ".CFUserTextEncoding" ".yarnrc" ".lldb/" ".vscode-exploration/" ".thumbnails/" ".zed/" ".texlive2024/" ".DS_Store" ".vim/" ".newsrc" ".openshot_qt/" "Developer/" ".newsrc.eld" ".rest-client/" ".yt-dlp/" "Music/" ".config/" ".zshr" ".org-timestamps/" "../" "./")
 
- ("/Users/jacopo/Developer/jacopodonati.it/content/" (26062 28563 154336 117000) "_index.md" "pubblicazioni/" "bio/" "saggi/" "../" "./")
+ ("/Users/jacopo/Developer/" (26446 6295 660132 599000) "Archivio/" "jd/" ".git/" "you/" "advent_of_code/" "cacert.pem" "Profilo GitHub/" "audiovisualmedicine.github.io/" "brain_tickler/" "pickwick/" "spese_condominiali/" "dotfiles/" ".DS_Store" "jacopodonati.it/" "../" "./")
+
+ ("/Users/jacopo/Developer/advent_of_code/2024/" (26448 8244 431530 435000) "inputs/" ".#day_4.c" "day_2a.c" "#day_4.c#" "day_3.c" "day_2b.c" "day_1.c" "../" "./")
+
+ ("/Users/jacopo/Documents/Organizzazione/" (26301 63352 0 0))
+
+ ("/Users/jacopo/Developer/advent_of_code/2024/inputs/" (26448 7216 620633 352000) "day_1.txt" "day_2.txt" "day_3.txt" "day_4.txt" "../" "./")
+
+ ("/Users/jacopo/Developer/advent_of_code/" (26447 1021 856195 583000) ".vscode/" ".git/" ".clang-format" "README.md" ".DS_Store" "2023/" "2024/" "../" "./")
+
+ ("/Users/jacopo/Developer/advent_of_code/2023/" (26447 27942 35699 430000) "inputs/" "day_2.c~" "day_2.c" ".#day_2.c" "day_1.c" ".DS_Store" "#day_2.c#" "../" "./")
+
+ ("/Users/jacopo/Developer/avm-c/" (26427 7184 727891 632000) ".git/" ".gitignore" "main.c" "README.md" "LICENSE" "../" "./")
+
+ ("/Users/jacopo/Developer/test/" (26301 52710 819131 458000) "templates/" "public/" "prova.html" "metadata.yaml" ".DS_Store" "prova.md" "../" "./")
+
+ ("/Users/jacopo/Developer/test/templates/" (26301 52252 741482 597000) "default.html" "../" "./")
+
+ ("/Users/jacopo/Developer/jacopodonati.it/content/" (26300 53278 779617 71000) "cose-belle/" "fomo/" "libri/" "_index.it.md" "_index.en.md" ".DS_Store" "manuale/" "../" "./")
 
  ("/Users/jacopo/Developer/jacopodonati.it/themes/chimero/layouts/partials/home/" (26062 28520 333684 234000) "altro.html" "cv.html" ".#info.html" "pubblicazioni.html" "saggi.html" "contatti.html" "info.html" "../" "./")
 
@@ -54,11 +80,7 @@
 
  ("/Users/jacopo/Documents/" (26062 26426 0 0) "Spese e entrate.numbers" "Libro mastro generale--27.12.2023.pdf" "Viaggi/" "Card Cultura.pdf" "Racconti in lavorazione/" "Organizzazione/" "Finanze condominio/" "Libro mastro generale--28.12.2023.pdf" "Finanze.cashdb/" "Finanze personali/" "Digital Editions/" "Progetti/" ".localized" "Catalogo morboso di morti celebri.numbers" ".DS_Store" "../" "./")
 
- ("/Users/jacopo/Documents/Organizzazione/" (26062 26426 0 0) "condominio.org~" "scrittura.org" "personale.org" "casa.org~" "musica.org~" "feste.org" "famiglia.org" "futuro.org" "inbox.org~" "personale.org~" "bucket_list.org" "famiglia.org~" "scrittura.org_archive" "music.org~" "#.emacs#" "compleanni.org~" "astronomia.org~" "personale.org_archive" "inbox.org" "personale.org_archive~" "lezioni.org~" "astronomia.org" "music.org" "bucket_list.org~" "casa.org" "futuro.org~" ".DS_Store" "tickler.org~" "compleanni.org" "lezioni.org" "musica.org" "condominio.org" "scrittura.org~" "../" "./")
-
  ("/Users/jacopo/Developer/jacopodonati.it/" (26051 62772 368968 98000) "themes/" "assets/" "data/" "i18n/" ".vscode/" ".git/" ".github/" "static/" "layouts/" ".gitignore" "public/" ".gitmodules" "go.sum" ".hugo_build.lock" "content/" "resources/" "archetypes/" "CNAME" "config/" ".DS_Store" "go.mod" "../" "./")
-
- ("/Users/jacopo/Developer/" (26060 24095 639853 804000) "da1me.github.io/" "bradipo/" "cacert.pem" "toanhow/" "jacopodonati.it.zip" "iA-Writer-ShortStory/" "iA-Writer-Templates/" "pickwick/" "dotfiles/" ".DS_Store" "comic_hoarder/" "jacopodonati.it/" "../" "./")
 
  ("/Users/" (25988 17237 796672 865000) "Guest/" "Shared/" "jacopo/" ".localized" "../" "./")
 )

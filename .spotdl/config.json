@@ -39,5 +39,7 @@
     "keep_alive": false,
     "allowed_origins": null,
     "playlist_numbering": false,
-    "preserve_original_audio": false
+    "preserve_original_audio": false,
+    "client_id": "f84c5e8b6e3a40b786a640713b25e88c",
+    "client_secret": "922011eca6574c8ab9be3f4fe39c1f77"
 }

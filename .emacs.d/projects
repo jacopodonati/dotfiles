@@ -1,2 +1,4 @@
 ;;; -*- lisp-data -*-
-(("~/Developer/jacopodonati.it/"))
+(("~/Developer/jacopodonati.it/")
+ ("~/Developer/fomo/")
+ ("~/Developer/db_backups/"))

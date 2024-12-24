@@ -22,7 +22,7 @@
         (holiday-fixed  8 15 "Assunzione di Maria")
         (holiday-fixed 10  4 "San Petronio")
         (holiday-fixed 11  1 "Ognissanti")
-	(holiday-fixed 12  8 "Immacolata Concezione")
+        (holiday-fixed 12  8 "Immacolata Concezione")
         (holiday-fixed 12 25 "Natale")
         (holiday-fixed 12 26 "Santo Stefano")
         (holiday-easter-etc -52 "Giovedì grasso")

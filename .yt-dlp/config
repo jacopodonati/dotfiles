@@ -3,8 +3,11 @@
 --format "bestvideo[ext=mp4][vcodec~='^((he|a)vc|h26[45])']+bestaudio[ext=m4a]/best[ext=mp4]/best"
 --merge-output-format mp4
 
---sub-langs ".*orig,it,en.*,pt"
+--sub-langs ".*orig,it,en,pt"
 --write-auto-subs
 --embed-subs
+--embed-chapters
 
 --ffmpeg-location "/opt/homebrew/bin/ffmpeg"
+
+--retry-sleep 5
